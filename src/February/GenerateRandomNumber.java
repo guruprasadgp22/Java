@@ -7,5 +7,6 @@ public class GenerateRandomNumber {
         Random ran = new Random();
         int random = ran.nextInt(0,255);
         System.out.println((char)random + " : " + random);
+        
     }
 }
